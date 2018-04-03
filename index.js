@@ -16,12 +16,9 @@ function inc (n) {
 function dec(n) {
   return n--
 }
-function (n) {
-  
+function makeInt(n) {
+  return parseInt(n)
 }
-function (n) {
-  
-}
-function (n) {
-  
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
